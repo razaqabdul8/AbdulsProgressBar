@@ -28,8 +28,16 @@ body {
     bottom: .5em;
     width: calc(var(--width, 0) * 1%);
     min-width: 2rem;
-    max-width: calc(100% - 1em);
+    max-width: calc(50% - 1em);
     background-color: #069;
     border-radius: 1em;
     padding: 1em;
+}
+
+.big-boi {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
 }
