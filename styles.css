@@ -5,6 +5,7 @@
 body {
     padding: 0;
     margin: 0;
+    background: #efefef;
 }
 
 .progress-bar {
@@ -28,7 +29,7 @@ body {
     bottom: .5em;
     width: calc(var(--width, 0) * 1%);
     min-width: 2rem;
-    max-width: calc(50% - 1em);
+    max-width: calc(var(--width, 0) * 1% - 1rem);
     background-color: #069;
     border-radius: 1em;
     padding: 1em;
